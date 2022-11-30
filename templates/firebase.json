@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public/nlp-final-proj-llwasson",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
